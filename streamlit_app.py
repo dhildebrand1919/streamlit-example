@@ -7,7 +7,7 @@ import altair as alt
 
 @st.cache()
 def load_data():
-    src_file = Path.cwd() / "data" / "raw" / "EPA_fuel_economy_summary.csv"
+    src_file = r"C:\Users\dhildebrand\Documents\Code\training\Data_visualization_training\code\data\raw"
     raw_df = pd.read_csv(src_file)
     return raw_df
 
